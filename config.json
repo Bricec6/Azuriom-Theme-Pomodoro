@@ -1,0 +1,145 @@
+{
+    "settings": {
+        "server": {
+            "launcher": "0",
+            "url": null,
+            "text": "Telecharger le launcher",
+            "ip": null,
+            "copied_text": "Adresse du serveur copiee."
+        }
+    },
+    "home": {
+        "hero": {
+            "enabled": "1",
+            "title": "Azuriom - L'aventure Minecraft commence ici",
+            "subtitle": "Rejoins un serveur Minecraft axe survie, evenements et aventures communautaires.",
+            "primary_button_text": "Boutique",
+            "primary_button_url": null,
+            "image": null
+        },
+        "trailer": {
+            "enabled": "1",
+            "title": "Trailer officiel de Pixel",
+            "subtitle": "Decouvre l'univers de Pixel avant de rejoindre le serveur.",
+            "video_url": "https://www.youtube.com/embed/Dwgj5XQaoGU",
+            "button_text": "Voir sur YouTube",
+            "button_url": "https://www.youtube.com/watch?v=Dwgj5XQaoGU"
+        },
+        "features": {
+            "enabled": "1",
+            "title": "Tout ce qu'il faut pour devenir une legende Pixel.",
+            "items": [
+                {
+                    "icon": "bi-shield-check",
+                    "title": "Anti-cheat equilibre",
+                    "text": "Joue dans un environnement propre avec une moderation active et une protection anti-cheat solide."
+                },
+                {
+                    "icon": "bi-people",
+                    "title": "Communaute active",
+                    "text": "Participe aux evenements hebdomadaires, mini-jeux et a une communaute Discord accueillante."
+                },
+                {
+                    "icon": "bi-gem",
+                    "title": "Progression personnalisee",
+                    "text": "Debloque rangs, cosmetiques et recompenses via des quetes et objectifs saisonniers."
+                },
+                {
+                    "icon": "bi-lightning-charge",
+                    "title": "Performances stables",
+                    "text": "Une infrastructure optimisee pour garder un gameplay fluide, meme en heure de pointe."
+                }
+            ]
+        },
+        "testimonial": {
+            "enabled": "1",
+            "quote": "J'ai cree ce serveur Minecraft par passion et admiration pour ce jeu, alors chaque mise a jour est pensee pour les joueurs.",
+            "author": "AlexCraft",
+            "role": "Admin",
+            "avatar": null
+        },
+        "blog": {
+            "enabled": "1",
+            "title": "Dernieres actualites Pixel",
+            "subtitle": "Patch notes, evenements et annonces de l'equipe Pixel."
+        }
+    },
+    "footer": {
+        "main": {
+            "title": "A propos de l'univers Minecraft de Azuriom",
+            "text": "Azuriom est un serveur de jeu Minecraft concu pour les joueurs qui aiment la survie, les evenements et une progression sur le long terme. Notre equipe publie des mises a jour regulieres, garde un gameplay equitable et construit une communaute conviviale ou chaque session compte."
+        },
+        "navigation": {
+            "title": "Navigation",
+            "links": [
+                {
+                    "icon": null,
+                    "name": null,
+                    "url": null,
+                    "new_tab": "0"
+                },
+                {
+                    "icon": null,
+                    "name": null,
+                    "url": null,
+                    "new_tab": "0"
+                },
+                {
+                    "icon": null,
+                    "name": null,
+                    "url": null,
+                    "new_tab": "0"
+                },
+                {
+                    "icon": null,
+                    "name": null,
+                    "url": null,
+                    "new_tab": "0"
+                }
+            ]
+        },
+        "contact": {
+            "title": "Contact",
+            "links": [
+                {
+                    "icon": null,
+                    "name": null,
+                    "url": null,
+                    "new_tab": "0"
+                },
+                {
+                    "icon": null,
+                    "name": null,
+                    "url": null,
+                    "new_tab": "0"
+                },
+                {
+                    "icon": null,
+                    "name": null,
+                    "url": null,
+                    "new_tab": "0"
+                },
+                {
+                    "icon": null,
+                    "name": null,
+                    "url": null,
+                    "new_tab": "0"
+                }
+            ]
+        }
+    },
+    "style": {
+        "colors": {
+            "light": {
+                "primary": "#0d6efd",
+                "body_color": "#212529",
+                "dark": "#212529"
+            },
+            "dark": {
+                "primary": "#4dabf7",
+                "body_color": "#f8f9fa",
+                "dark": "#0f1115"
+            }
+        }
+    }
+}
