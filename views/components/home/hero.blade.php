@@ -13,9 +13,17 @@
                         @endif
 
                         @if($serverIsLauncher)
-                            <a class="btn btn-outline-primary btn-lg px-4" href="{{ $serverLauncherUrl }}">
-                                {{ $serverLauncherText }}
-                            </a>
+                           <div>
+                               <a class="d-block btn btn-outline-primary btn-lg px-4" href="{{ $serverLauncherUrl }}">
+                                   {{ $serverLauncherText }}
+                               </a>
+
+                               @if($serverOnlinePlayers)
+                                   <small class="d-block mt-2 pomodoro-hero-server-status">
+                                       {{ trans('theme::theme.home.hero.online_players', ['count' => number_format($serverOnlinePlayers, 0, '.', '')]) }}
+                                   </small>
+                               @endif
+                           </div>
                         @else
                             <div>
                                 <button type="button"

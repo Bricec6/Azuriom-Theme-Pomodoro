@@ -1,7 +1,7 @@
 {
     "settings": {
         "server": {
-            "launcher": "0",
+            "launcher": "1",
             "url": null,
             "text": "Telecharger le launcher",
             "ip": null,
@@ -57,6 +57,9 @@
             "author": "AlexCraft",
             "role": "Admin",
             "avatar": null
+        },
+        "servers": {
+            "enabled": "0"
         },
         "blog": {
             "enabled": "1",

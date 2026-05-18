@@ -21,6 +21,7 @@ return [
         'features' => 'Features',
         'testimonial' => 'Testimonial',
         'blog' => 'Blog',
+        'servers' => 'Servers',
     ],
 
     'server' => [

@@ -8,6 +8,7 @@
         $trailerEnabled = theme_config('home.trailer.enabled') ?? true;
         $featuresEnabled = theme_config('home.features.enabled') ?? true;
         $testimonialEnabled = theme_config('home.testimonial.enabled') ?? true;
+        $serversEnabled = theme_config('home.servers.enabled') ?? true;
         $blogEnabled = theme_config('home.blog.enabled') ?? true;
 
         $heroImage = theme_config('home.hero.image')
@@ -102,6 +103,10 @@
 
         @if($testimonialEnabled)
             @include('components.home.testimonial', ['testimonial' => $testimonial])
+        @endif
+
+        @if($serversEnabled && ! $servers->isEmpty())
+            @include('components.home.servers', ['servers' => $servers])
         @endif
 
         @if($blogEnabled && $latestPosts->isNotEmpty())

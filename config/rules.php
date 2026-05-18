@@ -44,6 +44,9 @@ return [
     'home.testimonial.role' => ['nullable', 'string', 'max:255'],
     'home.testimonial.avatar' => ['nullable', 'string', 'max:1000'],
 
+    'home.servers' => ['nullable', 'array'],
+    'home.servers.enabled' => ['nullable', 'boolean'],
+
     'home.blog' => ['nullable', 'array'],
     'home.blog.enabled' => ['nullable', 'boolean'],
     'home.blog.title' => ['nullable', 'string', 'max:255'],

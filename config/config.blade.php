@@ -23,6 +23,7 @@
     $trailerEnabled = old('home.trailer.enabled', config('theme.home.trailer.enabled', true));
     $featuresEnabled = old('home.features.enabled', config('theme.home.features.enabled', true));
     $testimonialEnabled = old('home.testimonial.enabled', config('theme.home.testimonial.enabled', true));
+    $serversEnabled = old('home.servers.enabled', config('theme.home.servers.enabled', true));
     $blogEnabled = old('home.blog.enabled', config('theme.home.blog.enabled', true));
 
     $navigationLinks = old('footer.navigation.links', config('theme.footer.navigation.links', []));
@@ -110,6 +111,13 @@
                         <div class="form-check form-switch">
                             <input id="homeBlogEnabled" class="form-check-input" type="checkbox" name="home[blog][enabled]" value="1" @checked($blogEnabled)>
                             <label class="form-check-label" for="homeBlogEnabled">{{ trans('theme::admin.activation.blog') }}</label>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <input type="hidden" name="home[servers][enabled]" value="0">
+                        <div class="form-check form-switch">
+                            <input id="homeServersEnabled" class="form-check-input" type="checkbox" name="home[servers][enabled]" value="1" @checked($serversEnabled)>
+                            <label class="form-check-label" for="homeServersEnabled">{{ trans('theme::admin.activation.servers') }}</label>
                         </div>
                     </div>
                 </div>
